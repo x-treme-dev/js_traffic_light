@@ -1,0 +1,42 @@
+body{
+    background-color: #fdebd0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    width:85vw;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.tlight{
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: black;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tlight__color{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #454545;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background: #454545;
+    border:none;
+    color: white;
+    font-size: 1.2em;
+}
+
